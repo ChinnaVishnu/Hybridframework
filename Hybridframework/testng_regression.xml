@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">	
+
+<suite name="Gmail Suite" parallel="methods" thread-count="6">
+
+<listeners>
+
+	<listener class-name="com.slokam.moodle.commons.listiners.ExtentReportListiner"></listener>
+</listeners>
+   <test name="RunTests">
+      
+       <classes>
+         	
+		<class name="com.slokam.moodle.testsuite.cases.TestCategory"/>
+            
+       </classes> 
+    </test>    
+    
+
+</suite>
