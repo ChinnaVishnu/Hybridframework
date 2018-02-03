@@ -17,7 +17,7 @@ import com.jocata.hybrid.commons.utilities.UtilityMethods;
 //import org.testng.Assert;
 
 
-/**
+/**jkjnj
  * This class provides methods to read values of keys from either app.properties or sys.properties from "ConfigFiles" folder
  */
 public class ConfigManager 
